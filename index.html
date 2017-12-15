@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src="out/main.js"></script>
+
     <title>Title</title>
 </head>
 <body>
-</body>out
+<!--
+The clojure compiled script must be in the body and not
+in the head tag. Throws an error currently if in head!
+-->
+<script type="text/javascript" src="out/main.js"></script>
+</body>
 </html>

@@ -3,3 +3,6 @@
 .idea/inspectionProfiles/
 .idea/workspace.xml
 out/
+/.repl-*
+/.idea/
+/lib/
