@@ -2,7 +2,8 @@
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.671"]]
+                 [org.clojure/clojurescript "1.9.671"]
+                 [weasel "0.7.0" :exclusions [org.clojure/clojurescript]]]
   :plugins [[cider/cider-nrepl "0.15.1"]]
   :profiles {:dev {:dependencies [[com.cemerick/piggieback "0.2.2"]
                                   [org.clojure/tools.nrepl "0.2.10"]]

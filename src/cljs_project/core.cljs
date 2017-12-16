@@ -1,7 +1,7 @@
 (ns cljs-project.core
-  (:require [clojure.browser.repl :as repl]))
+  (:require [weasel.repl :as repl]))
 
-(defonce conn (repl/connect "http://localhost:9000/repl"))
+(when-not (repl/alive?) (repl/connect "ws://localhost:9001"))
 
 (enable-console-print!)
 (println "Hello world!")
