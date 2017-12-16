@@ -1,8 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
-.idea/inspectionProfiles/
-.idea/workspace.xml
-out/
-/.repl-*
 /.idea/
+/.repl-*
 /lib/
+/out/
+/target/
+/.lein-repl-history
+/.nrepl-port
